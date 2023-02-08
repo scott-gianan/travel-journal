@@ -1,0 +1,44 @@
+
+.card-image {
+    object-fit:cover;
+    border-radius: 1rem;
+    width: 100%;
+}
+.location-heading-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:5%
+}
+h1,h3,p {
+    margin: 0;
+    padding:0;
+}
+
+.details-container,.experience-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-container {
+    gap: 0.5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color:#C0C1b7;
+    font-weight: 900;
+}
+
+.paper {
+    box-shadow: 2px 2px 2px 2px aliceblue;
+}
